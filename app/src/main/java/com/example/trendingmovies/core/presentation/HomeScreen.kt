@@ -24,6 +24,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.trendingmovies.R
 import com.example.trendingmovies.movieList.presentation.movieList.MovieListViewModel
 import com.example.trendingmovies.movieList.presentation.movieList.PopularMoviesScreen
+import com.example.trendingmovies.movieList.presentation.movieList.UpcomingMoviesScreen
 import com.example.trendingmovies.movieList.util.Screen
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -75,7 +76,11 @@ fun HomeScreen(navController: NavController) {
                     )
                 }
                 composable(Screen.UpcomingMovieList.rout) {
-                    // UpcomingMoviesScreen()
+                     UpcomingMoviesScreen(
+                         navController = navController,
+                         movieLisState = movieListState,
+                         onEvent = movieListViewModel::onEvent
+                     )
                 }
             }
         }
