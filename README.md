@@ -19,7 +19,9 @@ It also supports offline mode by caching data locally.
 Below are some screenshots of the app:
 <p align="center">
   <img src="screenshots/popular_light.png" alt="Popular Screen" width="200"/>
-  <img src="screenshots/upcoming_dark.png" alt="Popular Screen" width="200"/>
+  <img src="screenshots/upcoming_dark.png" alt="Upcoming Screen" width="200"/>
+  <img src="screenshots/details_light.png" alt="Details Screen" width="200"/>
+  <img src="screenshots/details_dark.png" alt="Details Screen" width="200"/>
 </p>
 
 ## Technologies and Libraries Used 🛠
