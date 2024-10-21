@@ -18,6 +18,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.trendingmovies.details.presantation.DetailsScreen
 import com.example.trendingmovies.movieList.presentation.movieList.MovieListViewModel
 import com.example.trendingmovies.movieList.util.Screen
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
@@ -50,8 +51,8 @@ class MainActivity : ComponentActivity() {
                             arguments = listOf(
                                 navArgument("movieId") { type = NavType.IntType }
                             )
-                        ) { backStackEntry ->
-                            //DetailsScreen(backStackEntry)
+                        ) {
+                            DetailsScreen()
                         }
 
                     }

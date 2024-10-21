@@ -91,6 +91,7 @@ fun MovieItem(
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
+                    modifier = Modifier.size(70.dp),
                     imageVector = Icons.Rounded.ImageNotSupported,
                     contentDescription = movie.title
                 )
@@ -117,7 +118,7 @@ fun MovieItem(
         Spacer(modifier = Modifier.height(6.dp))
 
         Text(
-            modifier = Modifier.padding(start = 26.dp, end = 8.dp),
+            modifier = Modifier.padding(start = 16.dp, end = 8.dp),
             text = movie.title,
             color = Color.White,
             fontSize = 15.sp,
