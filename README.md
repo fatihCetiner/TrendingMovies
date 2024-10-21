@@ -17,7 +17,10 @@ It also supports offline mode by caching data locally.
 
 ## Screenshots 📱
 Below are some screenshots of the app:
-<p align="center"> <img src="screenshots/popular_screen.png" alt="Popular Screen" width="200"/>
+<p align="center">
+  <img src="screenshots/popular_light.png" alt="Popular Screen" width="200"/>
+  <img src="screenshots/upcoming_dark.png" alt="Popular Screen" width="200"/>
+</p>
 
 ## Technologies and Libraries Used 🛠
 - Jetpack Compose: For building the UI components.
